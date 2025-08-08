@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Average of 5 Numbers</h2>
+
+  <script>
+    let sum = 0;
+    let count = 5;
+
+    for (let i = 1; i <= count; i++) {
+      let num = parseFloat(prompt("Enter number " + i + ":"));
+      sum += num;
+    }
+
+    let average = sum / count;
+
+    document.write("The average of the 5 numbers is: " + average);
+    console.log("The average of the 5 numbers is: " + average);
+  </script>
+</body>
+</html>
