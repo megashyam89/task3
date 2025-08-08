@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Global and Local Variables Example</h2>
+
+  <script>
+   
+    let globalVar = "I am a global variable";
+
+    function testVariables() {
+
+      let localVar = "I am a local variable";
+
+      document.write("Inside function:<br>");
+      document.write(globalVar + "<br>"); 
+      document.write(localVar + "<br>");  
+    }
+
+    testVariables();
+
+    document.write("<br>Outside function:<br>");
+    document.write(globalVar + "<br>"); 
+  </script>
+</body>
+</html>

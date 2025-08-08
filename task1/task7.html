@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Find Maximum of Three Numbers</h2>
+
+  <script>
+  
+    function findMax(a, b, c) {
+      return Math.max(a, b, c);
+    }
+
+    let num1 = parseFloat(prompt("Enter first number:"));
+    let num2 = parseFloat(prompt("Enter second number:"));
+    let num3 = parseFloat(prompt("Enter third number:"));
+
+
+    let maxNumber = findMax(num1, num2, num3);
+
+    document.write("The maximum number is: " + maxNumber);
+  </script>
+</body>
+</html>

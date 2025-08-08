@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Reverse a String (Function Expression)</h2>
+
+  <script>
+    // Function expression to reverse a string
+    const reverseString = function(str) {
+      return str.split("").reverse().join("");
+    };
+
+    // Get string from user
+    let text = prompt("Enter a string:");
+    let reversed = reverseString(text);
+
+    // Display result
+    document.write("Original String: " + text + "<br>");
+    document.write("Reversed String: " + reversed);
+  </script>
+</body>
+</html>
